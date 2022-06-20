@@ -5,11 +5,10 @@ import com.amazon.utilities.Driver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class ProductDescriptionPage {
+public class ProductDescriptionPage extends BasePage {
 
-    //second highest price
-    @FindBy(xpath = "//*[@data-feature-name='featurebullets']//h1")
-    //@FindBy(css = "[id='featurebullets_feature_div'] h1")
+
+    @FindBy(css = "[id='feature-bullets']>h1")
     public WebElement descriptionHeader;
 
     public String getDescriptionHeaderText() {
