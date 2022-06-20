@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: Shopping from Amazon
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 26.9 s <<< FAILURE! - in Shopping from Amazon
+Selecting the product correctly and seeing its definition(Shopping from Amazon)  Time elapsed: 14.128 s  <<< ERROR!
+java.lang.NullPointerException
+
+Selecting the product correctly and seeing its definition(Shopping from Amazon)  Time elapsed: 12.728 s  <<< ERROR!
+java.lang.NullPointerException
+
