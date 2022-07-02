@@ -1,4 +1,30 @@
 -------------------------------------------------------------------------------
 Test set: Shopping from Amazon
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 33.998 s - in Shopping from Amazon
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 16.602 s <<< FAILURE! - in Shopping from Amazon
+Selecting the product correctly and seeing its definition(Shopping from Amazon)  Time elapsed: 8.459 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+unknown error: cannot determine loading status
+from unknown error: unexpected command response
+  (Session info: chrome=103.0.5060.53)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: '00136C', ip: '2607:9880:4130:5c:b438:9e40:92d:6503%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a311d8f49d0c7f1b28df8f04619a8041, clickElement {id=3240b8cf-330b-4ce8-8bfc-0cdb915fc6c0}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/8d/2k8k0_ns53q...}, goog:chromeOptions: {debuggerAddress: localhost:52427}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:52427/devtoo..., se:cdpVersion: 103.0.5060.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (a311d8f49d0c7f1b28df8f04619a8041)] -> xpath: //*[@class='a-list-item']//*[text()='Electronics']//following::*[text()='Televisions']]
+Session ID: a311d8f49d0c7f1b28df8f04619a8041
+
+Selecting the product correctly and seeing its definition(Shopping from Amazon)  Time elapsed: 8.102 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+unknown error: cannot determine loading status
+from unknown error: unexpected command response
+  (Session info: chrome=103.0.5060.53)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: '00136C', ip: '2607:9880:4130:5c:b438:9e40:92d:6503%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [279a4c5e821a1298d55b6958330b97db, clickElement {id=99a6e0db-4664-4b90-9753-5031ca155853}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/8d/2k8k0_ns53q...}, goog:chromeOptions: {debuggerAddress: localhost:52508}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:52508/devtoo..., se:cdpVersion: 103.0.5060.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (279a4c5e821a1298d55b6958330b97db)] -> xpath: //*[@class='a-list-item']//*[text()='Electronics']//following::*[text()='Televisions']]
+Session ID: 279a4c5e821a1298d55b6958330b97db
+

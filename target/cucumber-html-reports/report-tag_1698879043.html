@@ -76,7 +76,7 @@ $(document).ready(function() {
     <tr class="info">
       <td>Cucumber HTML Reports</td>
         <td>1</td>
-      <td>20 Jun 2022, 05:59</td>
+      <td>02 Jul 2022, 14:21</td>
     </tr>
   </tbody>
 </table>
@@ -129,19 +129,19 @@ $(document).ready(function() {
         <tbody>
         <tr>
           <td class="tagname">@amazon</td>
-          <td      class="passed"    >11</td>
-          <td >0</td>
-          <td >0</td>
+          <td      class="passed"    >5</td>
+          <td      class="failed"    >1</td>
+          <td     class="skipped"   >5</td>
           <td >0</td>
           <td >0</td>
           <td class="total">11</td>
 
-          <td  class="passed"    >1</td>
           <td >0</td>
+          <td  class="failed"    >1</td>
           <td class="total">1</td>
 
-          <td class="duration" data-value="7959310000">7.959</td>
-          <td class="passed">Passed</td>
+          <td class="duration" data-value="2945762000">2.945</td>
+          <td class="failed">Failed</td>
         </tr>
         </tbody>
 
@@ -183,12 +183,12 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">7.959</span>
+  <span class="lead-duration duration">2.945</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
+  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
 
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Scenario Outline</span>
   <span class="name">Selecting the product correctly and seeing its definition</span>
 
@@ -199,7 +199,7 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-1" class="collapse collapsable-details ">
+  <div id="element-1" class="collapse collapsable-details  in ">
 
 
   <div class="inner-level hooks-element-before">
@@ -221,7 +221,7 @@ $(document).ready(function() {
             <span class="keyword indention">Before</span>
               <span class="location name">com.amazon.step_definitions.Hooks.setUp()</span>
 
-  <span class="lead-duration duration">2.344</span>
+  <span class="lead-duration duration">3.425</span>
 
           </div>
 
@@ -238,9 +238,9 @@ $(document).ready(function() {
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-3">
+  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-3">
 
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -250,7 +250,7 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-3" class="inner-level collapse collapsable-details ">
+  <div id="steps-3" class="inner-level collapse collapsable-details  in ">
       <div class="step">
 
 
@@ -258,7 +258,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">the user is on the main page</span>
 
-  <span class="lead-duration duration">0.011</span>
+  <span class="lead-duration duration">0.005</span>
 
 </div>
 
@@ -285,7 +285,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">the user clicks on burger menu for all products</span>
 
-  <span class="lead-duration duration">0.127</span>
+  <span class="lead-duration duration">0.176</span>
 
 </div>
 
@@ -312,7 +312,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">the user clicks <span class="argument">&quot;Electronics, Computers &amp; Office&quot;</span> on the main page</span>
 
-  <span class="lead-duration duration">0.771</span>
+  <span class="lead-duration duration">0.662</span>
 
 </div>
 
@@ -339,7 +339,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">the user clicks the <span class="argument">&quot;TV &amp; Home Theatre&quot;</span> on the main page</span>
 
-  <span class="lead-duration duration">1.165</span>
+  <span class="lead-duration duration">1.227</span>
 
 </div>
 
@@ -366,7 +366,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">the user is on the categorised product page with <span class="argument">&quot;Amazon.ca: Televisions &amp; Video: Electronics: Accessories, Projectors, AV Receivers &amp; Amplifiers, Televisions &amp; More&quot;</span></span>
 
-  <span class="lead-duration duration">0.007</span>
+  <span class="lead-duration duration">0.008</span>
 
 </div>
 
@@ -389,11 +389,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-And passed">
+<div class="brief step-name-And failed">
   <span class="keyword indention">And</span>
   <span class="name">the user clicks the <span class="argument">&quot;Televisions&quot;</span> which is under the <span class="argument">&quot;Electronics&quot;</span> on the categorised product page</span>
 
-  <span class="lead-duration duration">1.366</span>
+  <span class="lead-duration duration">0.865</span>
 
 </div>
 
@@ -401,6 +401,44 @@ $(document).ready(function() {
 
 
 
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-4">
+          <a>org.openqa.selenium.WebDriverException:</a>
+      </div>
+      <div id="msg-4" class="collapse collapsable-details  in ">
+        <pre>org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from unknown error: unexpected command response
+  (Session info: chrome=103.0.5060.53)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: '00136C', ip: '2607:9880:4130:5c:b438:9e40:92d:6503%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [279a4c5e821a1298d55b6958330b97db, clickElement {id=99a6e0db-4664-4b90-9753-5031ca155853}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/8d/2k8k0_ns53q...}, goog:chromeOptions: {debuggerAddress: localhost:52508}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:52508/devtoo..., se:cdpVersion: 103.0.5060.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (279a4c5e821a1298d55b6958330b97db)] -&gt; xpath: //*[@class='a-list-item']//*[text()='Electronics']//following::*[text()='Televisions']]
+Session ID: 279a4c5e821a1298d55b6958330b97db
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at com.amazon.pages.CategorisedProductPage.clickCategorisedProduct(CategorisedProductPage.java:13)
+	at com.amazon.step_definitions.CategorisedProductPageSteps.the_user_clicks_the_product_is_under_the_common_on_categorised_the_product_page(CategorisedProductPageSteps.java:19)
+	at &#10045;.the user clicks the &quot;Televisions&quot; which is under the &quot;Electronics&quot; on the categorised product page(file:///Users/goksalcavdar/IdeaProjects/Amazon/src/test/resources/features/AmazonShopping.feature:9)
+</pre>
+      </div>
+    </div>
+  </div>
 
 
 
@@ -416,11 +454,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-Then passed">
+<div class="brief step-name-Then skipped">
   <span class="keyword indention">Then</span>
   <span class="name">the user is on the product page with <span class="argument">&quot;Amazon.ca: Televisions - Televisions &amp; Video: Electronics&quot;</span></span>
 
-  <span class="lead-duration duration">0.002</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -443,11 +481,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-When passed">
+<div class="brief step-name-When skipped">
   <span class="keyword indention">When</span>
   <span class="name">the user clicks on the <span class="argument">&quot;Samsung&quot;</span></span>
 
-  <span class="lead-duration duration">1.092</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -470,11 +508,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-And passed">
+<div class="brief step-name-And skipped">
   <span class="keyword indention">And</span>
   <span class="name">the user selects price preference from <span class="argument">&quot;Price: High to Low&quot;</span> on the result page</span>
 
-  <span class="lead-duration duration">1.257</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -497,11 +535,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-And passed">
+<div class="brief step-name-And skipped">
   <span class="keyword indention">And</span>
   <span class="name">the user clicks the second highest priced product on the results page</span>
 
-  <span class="lead-duration duration">2.093</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -524,11 +562,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-Then passed">
+<div class="brief step-name-Then skipped">
   <span class="keyword indention">Then</span>
   <span class="name">the product description header is visible to the user</span>
 
-  <span class="lead-duration duration">0.062</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -555,7 +593,7 @@ $(document).ready(function() {
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-4">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-5">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -567,13 +605,13 @@ $(document).ready(function() {
 
     </div>
 
-    <div id="after-4" class="inner-level collapse collapsable-details ">
+    <div id="after-5" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">com.amazon.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.268</span>
+  <span class="lead-duration duration">1.709</span>
 
           </div>
 
@@ -582,6 +620,21 @@ $(document).ready(function() {
 
 
 
+  <div class="embeddings inner-level">
+  <div class="embedding indention">
+    <div data-toggle="collapse" data-target="#embedding-6" class="collapsable-control">
+      <a>screenshot</a>
+      <a href="embeddings/embedding_-1954822074.png" download target="_blank">
+        <span class="download-button glyphicon glyphicon-download-alt"></span>
+      </a>
+    </div>
+    <div id="embedding-6" class="collapse collapsable-details ">
+      <div class="embedding-content">
+        <img src="embeddings/embedding_-1954822074.png">
+      </div>
+    </div>
+  </div>
+  </div>
 
         </div>
     </div>

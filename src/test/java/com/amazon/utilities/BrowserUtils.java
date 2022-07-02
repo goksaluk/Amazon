@@ -2,6 +2,7 @@ package com.amazon.utilities;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -81,6 +82,18 @@ public class BrowserUtils {
      */
     public static void scrollToElement(WebElement element) {
         ((JavascriptExecutor) Driver.get()).executeScript("arguments[0].scrollIntoView(true);", element);
+    }
+
+    public static void waitForPageToLoad(long timeOutInSeconds) {
+        ExpectedCondition<Boolean> expectation = driver -> ((JavascriptExecutor) driver).executeScript("return document.readyState").equals("complete");
+        ExpectedCondition<Boolean> expectation2 = driver -> ((JavascriptExecutor) driver).executeScript("return jQuery.active == 0").equals(true);
+        try {
+            WebDriverWait wait = new WebDriverWait(Driver.get(), Duration.ofSeconds(10));
+            wait.until(expectation);
+            wait.until(expectation2);
+        } catch (Throwable error) {
+            error.printStackTrace();
+        }
     }
 
 

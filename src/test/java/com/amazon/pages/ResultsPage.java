@@ -17,6 +17,8 @@ public class ResultsPage extends BasePage{
 
 
     public void clickSortByButton(){
+        BrowserUtils.waitFor(2);
+        //BrowserUtils.waitForPageToLoad(5);
         BrowserUtils.waitForVisibility(sortByButton,5);
         BrowserUtils.waitForClickablility(sortByButton,3);
         sortByButton.click();
@@ -30,6 +32,8 @@ public class ResultsPage extends BasePage{
 
     public void clickSecondHighestPricedItem(){
         //BrowserUtils.waitForVisibility(secondHighestPricedItem,5);
+        BrowserUtils.waitFor(2);
+        //BrowserUtils.waitForPageToLoad(5);
         BrowserUtils.waitForClickablility(secondHighestPricedItem,3);
         secondHighestPricedItem.click();
     }
