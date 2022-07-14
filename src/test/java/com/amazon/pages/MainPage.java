@@ -18,6 +18,7 @@ public class MainPage extends BasePage {
 
     public  void clickMainMenu(String mainProductName ) {
         WebElement mainMenu = Driver.get().findElement(By.xpath("//*[text()='shop by department']//following::*[text()='"+ mainProductName +"']"));
+        BrowserUtils.waitFor(4);
         BrowserUtils.waitForClickablility(mainMenu,3);
         mainMenu.click();
     }

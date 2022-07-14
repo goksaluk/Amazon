@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="Shopping from Amazon" time="16.602" tests="2" errors="2" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="Shopping from Amazon" time="192.727" tests="18" errors="14" skipped="0" failures="1">
   <properties>
-    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
-    <property name="java.specification.version" value="12"/>
+    <property name="java.specification.version" value="15"/>
     <property name="webdriver.chrome.driver" value="/Users/goksalcavdar/.cache/selenium/chromedriver/mac64/103.0.5060.53/chromedriver"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.class.path" value="/Users/goksalcavdar/IdeaProjects/Amazon/target/test-classes:/Users/goksalcavdar/IdeaProjects/Amazon/target/classes:/Users/goksalcavdar/.m2/repository/io/cucumber/cucumber-java/6.9.0/cucumber-java-6.9.0.jar:/Users/goksalcavdar/.m2/repository/io/cucumber/cucumber-core/6.9.0/cucumber-core-6.9.0.jar:/Users/goksalcavdar/.m2/repository/io/cucumber/cucumber-gherkin/6.9.0/cucumber-gherkin-6.9.0.jar:/Users/goksalcavdar/.m2/repository/io/cucumber/cucumber-gherkin-messages/6.9.0/cucumber-gherkin-messages-6.9.0.jar:/Users/goksalcavdar/.m2/repository/io/cucumber/messages/13.2.0/messages-13.2.0.jar:/Users/goksalcavdar/.m2/repository/io/cucumber/tag-expressions/3.0.0/tag-expressions-3.0.0.jar:/Users/goksalcavdar/.m2/repository/io/cucumber/cucumber-expressions/10.3.0/cucumber-expressions-10.3.0.jar:/Users/goksalcavdar/.m2/repository/io/cucumber/datatable/3.5.0/datatable-3.5.0.jar:/Users/goksalcavdar/.m2/repository/io/cucumber/cucumber-plugin/6.9.0/cucumber-plugin-6.9.0.jar:/Users/goksalcavdar/.m2/repository/io/cucumber/docstring/6.9.0/docstring-6.9.0.jar:/Users/goksalcavdar/.m2/repository/io/cucumber/html-formatter/9.0.0/html-formatter-9.0.0.jar:/Users/goksalcavdar/.m2/repository/io/cucumber/create-meta/2.0.4/create-meta-2.0.4.jar:/Users/goksalcavdar/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/goksalcavdar/.m2/repository/io/cucumber/cucumber-junit/6.9.0/cucumber-junit-6.9.0.jar:/Users/goksalcavdar/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/Users/goksalcavdar/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/goksalcavdar/.m2/repository/org/seleniumhq/selenium/selenium-java/4.1.4/selenium-java-4.1.4.jar:/Users/goksalcavdar/.m2/repository/org/seleniumhq/selenium/selenium-api/4.1.4/selenium-api-4.1.4.jar:/Users/goksalcavdar/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.1.4/selenium-chrome-driver-4.1.4.jar:/Users/goksalcavdar/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/Users/goksalcavdar/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar:/Users/goksalcavdar/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar:/Users/goksalcavdar/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/goksalcavdar/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/goksalcavdar/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/goksalcavdar/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/goksalcavdar/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/goksalcavdar/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/goksalcavdar/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/goksalcavdar/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.1.4/selenium-chromium-driver-4.1.4.jar:/Users/goksalcavdar/.m2/repository/org/seleniumhq/selenium/selenium-json/4.1.4/selenium-json-4.1.4.jar:/Users/goksalcavdar/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v100/4.1.4/selenium-devtools-v100-4.1.4.jar:/Users/goksalcavdar/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v101/4.1.4/selenium-devtools-v101-4.1.4.jar:/Users/goksalcavdar/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.1.4/selenium-devtools-v85-4.1.4.jar:/Users/goksalcavdar/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v99/4.1.4/selenium-devtools-v99-4.1.4.jar:/Users/goksalcavdar/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.1.4/selenium-edge-driver-4.1.4.jar:/Users/goksalcavdar/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.1.4/selenium-firefox-driver-4.1.4.jar:/Users/goksalcavdar/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.1.4/selenium-ie-driver-4.1.4.jar:/Users/goksalcavdar/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/4.1.4/selenium-opera-driver-4.1.4.jar:/Users/goksalcavdar/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.1.4/selenium-remote-driver-4.1.4.jar:/Users/goksalcavdar/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/goksalcavdar/.m2/repository/io/netty/netty-buffer/4.1.76.Final/netty-buffer-4.1.76.Final.jar:/Users/goksalcavdar/.m2/repository/io/netty/netty-codec-http/4.1.76.Final/netty-codec-http-4.1.76.Final.jar:/Users/goksalcavdar/.m2/repository/io/netty/netty-codec/4.1.76.Final/netty-codec-4.1.76.Final.jar:/Users/goksalcavdar/.m2/repository/io/netty/netty-handler/4.1.76.Final/netty-handler-4.1.76.Final.jar:/Users/goksalcavdar/.m2/repository/io/netty/netty-common/4.1.76.Final/netty-common-4.1.76.Final.jar:/Users/goksalcavdar/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.76.Final/netty-transport-classes-epoll-4.1.76.Final.jar:/Users/goksalcavdar/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.76.Final/netty-transport-classes-kqueue-4.1.76.Final.jar:/Users/goksalcavdar/.m2/repository/io/netty/netty-transport-native-epoll/4.1.76.Final/netty-transport-native-epoll-4.1.76.Final.jar:/Users/goksalcavdar/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.76.Final/netty-transport-native-kqueue-4.1.76.Final.jar:/Users/goksalcavdar/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.76.Final/netty-transport-native-unix-common-4.1.76.Final.jar:/Users/goksalcavdar/.m2/repository/io/netty/netty-transport/4.1.76.Final/netty-transport-4.1.76.Final.jar:/Users/goksalcavdar/.m2/repository/io/netty/netty-resolver/4.1.76.Final/netty-resolver-4.1.76.Final.jar:/Users/goksalcavdar/.m2/repository/io/opentelemetry/opentelemetry-api/1.13.0/opentelemetry-api-1.13.0.jar:/Users/goksalcavdar/.m2/repository/io/opentelemetry/opentelemetry-context/1.13.0/opentelemetry-context-1.13.0.jar:/Users/goksalcavdar/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.13.0/opentelemetry-exporter-logging-1.13.0.jar:/Users/goksalcavdar/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.13.0-alpha/opentelemetry-sdk-metrics-1.13.0-alpha.jar:/Users/goksalcavdar/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.13.0-alpha/opentelemetry-sdk-logs-1.13.0-alpha.jar:/Users/goksalcavdar/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.13.0/opentelemetry-sdk-common-1.13.0.jar:/Users/goksalcavdar/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.13.0/opentelemetry-sdk-extension-autoconfigure-spi-1.13.0.jar:/Users/goksalcavdar/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.13.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.13.0-alpha.jar:/Users/goksalcavdar/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.13.0/opentelemetry-sdk-trace-1.13.0.jar:/Users/goksalcavdar/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.13.0/opentelemetry-sdk-1.13.0.jar:/Users/goksalcavdar/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.13.0-alpha/opentelemetry-semconv-1.13.0-alpha.jar:/Users/goksalcavdar/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/goksalcavdar/.m2/repository/net/bytebuddy/byte-buddy/1.12.9/byte-buddy-1.12.9.jar:/Users/goksalcavdar/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/goksalcavdar/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/goksalcavdar/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/goksalcavdar/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/goksalcavdar/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/goksalcavdar/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/goksalcavdar/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/goksalcavdar/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/goksalcavdar/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/goksalcavdar/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/goksalcavdar/.m2/repository/org/seleniumhq/selenium/selenium-http/4.1.4/selenium-http-4.1.4.jar:/Users/goksalcavdar/.m2/repository/dev/failsafe/failsafe/3.2.3/failsafe-3.2.3.jar:/Users/goksalcavdar/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.1.4/selenium-safari-driver-4.1.4.jar:/Users/goksalcavdar/.m2/repository/org/seleniumhq/selenium/selenium-support/4.1.4/selenium-support-4.1.4.jar:/Users/goksalcavdar/.m2/repository/io/github/bonigarcia/webdrivermanager/5.1.1/webdrivermanager-5.1.1.jar:/Users/goksalcavdar/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/goksalcavdar/.m2/repository/com/google/code/gson/gson/2.9.0/gson-2.9.0.jar:/Users/goksalcavdar/.m2/repository/com/github/docker-java/docker-java/3.2.13/docker-java-3.2.13.jar:/Users/goksalcavdar/.m2/repository/com/github/docker-java/docker-java-core/3.2.13/docker-java-core-3.2.13.jar:/Users/goksalcavdar/.m2/repository/com/github/docker-java/docker-java-api/3.2.13/docker-java-api-3.2.13.jar:/Users/goksalcavdar/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/goksalcavdar/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/goksalcavdar/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/goksalcavdar/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/goksalcavdar/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/goksalcavdar/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar:/Users/goksalcavdar/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar:/Users/goksalcavdar/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/goksalcavdar/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.2.13/docker-java-transport-httpclient5-3.2.13.jar:/Users/goksalcavdar/.m2/repository/com/github/docker-java/docker-java-transport/3.2.13/docker-java-transport-3.2.13.jar:/Users/goksalcavdar/.m2/repository/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar:/Users/goksalcavdar/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/goksalcavdar/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/goksalcavdar/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.1.3/httpclient5-5.1.3.jar:/Users/goksalcavdar/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.1.3/httpcore5-5.1.3.jar:/Users/goksalcavdar/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.1.3/httpcore5-h2-5.1.3.jar:/Users/goksalcavdar/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/goksalcavdar/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/goksalcavdar/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/goksalcavdar/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/goksalcavdar/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/goksalcavdar/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:"/>
@@ -11,11 +10,11 @@
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="user.timezone" value="America/Toronto"/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="java.vm.specification.version" value="12"/>
+    <property name="java.vm.specification.version" value="15"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="GB"/>
-    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/goksalcavdar/IdeaProjects/Amazon/target/surefire/surefirebooter17810071473530916160.jar /Users/goksalcavdar/IdeaProjects/Amazon/target/surefire 2022-07-02T14-21-04_814-jvmRun1 surefire6248031094068236645tmp surefire_018231698174834863232tmp"/>
+    <property name="sun.boot.library.path" value="/Users/goksalcavdar/Library/Java/JavaVirtualMachines/openjdk-15.0.1/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/goksalcavdar/IdeaProjects/Amazon/target/surefire/surefirebooter3891398381789598545.jar /Users/goksalcavdar/IdeaProjects/Amazon/target/surefire 2022-07-04T18-21-06_650-jvmRun1 surefire3335929934621233892tmp surefire_04059957149551244455tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/goksalcavdar/IdeaProjects/Amazon/target/test-classes:/Users/goksalcavdar/IdeaProjects/Amazon/target/classes:/Users/goksalcavdar/.m2/repository/io/cucumber/cucumber-java/6.9.0/cucumber-java-6.9.0.jar:/Users/goksalcavdar/.m2/repository/io/cucumber/cucumber-core/6.9.0/cucumber-core-6.9.0.jar:/Users/goksalcavdar/.m2/repository/io/cucumber/cucumber-gherkin/6.9.0/cucumber-gherkin-6.9.0.jar:/Users/goksalcavdar/.m2/repository/io/cucumber/cucumber-gherkin-messages/6.9.0/cucumber-gherkin-messages-6.9.0.jar:/Users/goksalcavdar/.m2/repository/io/cucumber/messages/13.2.0/messages-13.2.0.jar:/Users/goksalcavdar/.m2/repository/io/cucumber/tag-expressions/3.0.0/tag-expressions-3.0.0.jar:/Users/goksalcavdar/.m2/repository/io/cucumber/cucumber-expressions/10.3.0/cucumber-expressions-10.3.0.jar:/Users/goksalcavdar/.m2/repository/io/cucumber/datatable/3.5.0/datatable-3.5.0.jar:/Users/goksalcavdar/.m2/repository/io/cucumber/cucumber-plugin/6.9.0/cucumber-plugin-6.9.0.jar:/Users/goksalcavdar/.m2/repository/io/cucumber/docstring/6.9.0/docstring-6.9.0.jar:/Users/goksalcavdar/.m2/repository/io/cucumber/html-formatter/9.0.0/html-formatter-9.0.0.jar:/Users/goksalcavdar/.m2/repository/io/cucumber/create-meta/2.0.4/create-meta-2.0.4.jar:/Users/goksalcavdar/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/goksalcavdar/.m2/repository/io/cucumber/cucumber-junit/6.9.0/cucumber-junit-6.9.0.jar:/Users/goksalcavdar/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/Users/goksalcavdar/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/goksalcavdar/.m2/repository/org/seleniumhq/selenium/selenium-java/4.1.4/selenium-java-4.1.4.jar:/Users/goksalcavdar/.m2/repository/org/seleniumhq/selenium/selenium-api/4.1.4/selenium-api-4.1.4.jar:/Users/goksalcavdar/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.1.4/selenium-chrome-driver-4.1.4.jar:/Users/goksalcavdar/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/Users/goksalcavdar/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar:/Users/goksalcavdar/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar:/Users/goksalcavdar/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/goksalcavdar/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/goksalcavdar/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/goksalcavdar/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/goksalcavdar/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/goksalcavdar/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/goksalcavdar/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/goksalcavdar/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.1.4/selenium-chromium-driver-4.1.4.jar:/Users/goksalcavdar/.m2/repository/org/seleniumhq/selenium/selenium-json/4.1.4/selenium-json-4.1.4.jar:/Users/goksalcavdar/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v100/4.1.4/selenium-devtools-v100-4.1.4.jar:/Users/goksalcavdar/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v101/4.1.4/selenium-devtools-v101-4.1.4.jar:/Users/goksalcavdar/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.1.4/selenium-devtools-v85-4.1.4.jar:/Users/goksalcavdar/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v99/4.1.4/selenium-devtools-v99-4.1.4.jar:/Users/goksalcavdar/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.1.4/selenium-edge-driver-4.1.4.jar:/Users/goksalcavdar/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.1.4/selenium-firefox-driver-4.1.4.jar:/Users/goksalcavdar/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.1.4/selenium-ie-driver-4.1.4.jar:/Users/goksalcavdar/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/4.1.4/selenium-opera-driver-4.1.4.jar:/Users/goksalcavdar/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.1.4/selenium-remote-driver-4.1.4.jar:/Users/goksalcavdar/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/goksalcavdar/.m2/repository/io/netty/netty-buffer/4.1.76.Final/netty-buffer-4.1.76.Final.jar:/Users/goksalcavdar/.m2/repository/io/netty/netty-codec-http/4.1.76.Final/netty-codec-http-4.1.76.Final.jar:/Users/goksalcavdar/.m2/repository/io/netty/netty-codec/4.1.76.Final/netty-codec-4.1.76.Final.jar:/Users/goksalcavdar/.m2/repository/io/netty/netty-handler/4.1.76.Final/netty-handler-4.1.76.Final.jar:/Users/goksalcavdar/.m2/repository/io/netty/netty-common/4.1.76.Final/netty-common-4.1.76.Final.jar:/Users/goksalcavdar/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.76.Final/netty-transport-classes-epoll-4.1.76.Final.jar:/Users/goksalcavdar/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.76.Final/netty-transport-classes-kqueue-4.1.76.Final.jar:/Users/goksalcavdar/.m2/repository/io/netty/netty-transport-native-epoll/4.1.76.Final/netty-transport-native-epoll-4.1.76.Final.jar:/Users/goksalcavdar/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.76.Final/netty-transport-native-kqueue-4.1.76.Final.jar:/Users/goksalcavdar/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.76.Final/netty-transport-native-unix-common-4.1.76.Final.jar:/Users/goksalcavdar/.m2/repository/io/netty/netty-transport/4.1.76.Final/netty-transport-4.1.76.Final.jar:/Users/goksalcavdar/.m2/repository/io/netty/netty-resolver/4.1.76.Final/netty-resolver-4.1.76.Final.jar:/Users/goksalcavdar/.m2/repository/io/opentelemetry/opentelemetry-api/1.13.0/opentelemetry-api-1.13.0.jar:/Users/goksalcavdar/.m2/repository/io/opentelemetry/opentelemetry-context/1.13.0/opentelemetry-context-1.13.0.jar:/Users/goksalcavdar/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.13.0/opentelemetry-exporter-logging-1.13.0.jar:/Users/goksalcavdar/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.13.0-alpha/opentelemetry-sdk-metrics-1.13.0-alpha.jar:/Users/goksalcavdar/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.13.0-alpha/opentelemetry-sdk-logs-1.13.0-alpha.jar:/Users/goksalcavdar/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.13.0/opentelemetry-sdk-common-1.13.0.jar:/Users/goksalcavdar/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.13.0/opentelemetry-sdk-extension-autoconfigure-spi-1.13.0.jar:/Users/goksalcavdar/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.13.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.13.0-alpha.jar:/Users/goksalcavdar/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.13.0/opentelemetry-sdk-trace-1.13.0.jar:/Users/goksalcavdar/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.13.0/opentelemetry-sdk-1.13.0.jar:/Users/goksalcavdar/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.13.0-alpha/opentelemetry-semconv-1.13.0-alpha.jar:/Users/goksalcavdar/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/goksalcavdar/.m2/repository/net/bytebuddy/byte-buddy/1.12.9/byte-buddy-1.12.9.jar:/Users/goksalcavdar/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/goksalcavdar/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/goksalcavdar/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/goksalcavdar/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/goksalcavdar/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/goksalcavdar/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/goksalcavdar/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/goksalcavdar/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/goksalcavdar/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/goksalcavdar/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/goksalcavdar/.m2/repository/org/seleniumhq/selenium/selenium-http/4.1.4/selenium-http-4.1.4.jar:/Users/goksalcavdar/.m2/repository/dev/failsafe/failsafe/3.2.3/failsafe-3.2.3.jar:/Users/goksalcavdar/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.1.4/selenium-safari-driver-4.1.4.jar:/Users/goksalcavdar/.m2/repository/org/seleniumhq/selenium/selenium-support/4.1.4/selenium-support-4.1.4.jar:/Users/goksalcavdar/.m2/repository/io/github/bonigarcia/webdrivermanager/5.1.1/webdrivermanager-5.1.1.jar:/Users/goksalcavdar/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/goksalcavdar/.m2/repository/com/google/code/gson/gson/2.9.0/gson-2.9.0.jar:/Users/goksalcavdar/.m2/repository/com/github/docker-java/docker-java/3.2.13/docker-java-3.2.13.jar:/Users/goksalcavdar/.m2/repository/com/github/docker-java/docker-java-core/3.2.13/docker-java-core-3.2.13.jar:/Users/goksalcavdar/.m2/repository/com/github/docker-java/docker-java-api/3.2.13/docker-java-api-3.2.13.jar:/Users/goksalcavdar/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/goksalcavdar/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/goksalcavdar/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/goksalcavdar/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/goksalcavdar/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/goksalcavdar/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar:/Users/goksalcavdar/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar:/Users/goksalcavdar/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/goksalcavdar/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.2.13/docker-java-transport-httpclient5-3.2.13.jar:/Users/goksalcavdar/.m2/repository/com/github/docker-java/docker-java-transport/3.2.13/docker-java-transport-3.2.13.jar:/Users/goksalcavdar/.m2/repository/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar:/Users/goksalcavdar/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/goksalcavdar/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/goksalcavdar/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.1.3/httpclient5-5.1.3.jar:/Users/goksalcavdar/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.1.3/httpcore5-5.1.3.jar:/Users/goksalcavdar/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.1.3/httpcore5-h2-5.1.3.jar:/Users/goksalcavdar/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/goksalcavdar/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/goksalcavdar/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/goksalcavdar/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/goksalcavdar/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/goksalcavdar/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:"/>
@@ -23,140 +22,68 @@
     <property name="user.home" value="/Users/goksalcavdar"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2019-04-16"/>
-    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/Contents/Home"/>
+    <property name="java.version.date" value="2020-10-20"/>
+    <property name="java.home" value="/Users/goksalcavdar/Library/Java/JavaVirtualMachines/openjdk-15.0.1/Contents/Home"/>
     <property name="file.separator" value="/"/>
     <property name="basedir" value="/Users/goksalcavdar/IdeaProjects/Amazon"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/goksalcavdar/IdeaProjects/Amazon/target/surefire/surefirebooter17810071473530916160.jar"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/Users/goksalcavdar/IdeaProjects/Amazon/target/surefire/surefirebooter3891398381789598545.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="java.runtime.version" value="12.0.1+12"/>
+    <property name="java.runtime.version" value="15.0.1+9-18"/>
     <property name="user.name" value="goksalcavdar"/>
     <property name="path.separator" value=":"/>
     <property name="os.version" value="10.16"/>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
     <property name="localRepository" value="/Users/goksalcavdar/.m2/repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="/var/folders/8d/2k8k0_ns53q6rnrx1kymhcym0000gp/T/"/>
-    <property name="idea.version" value="2020.2.2"/>
-    <property name="java.version" value="12.0.1"/>
+    <property name="java.version" value="15.0.1"/>
     <property name="user.dir" value="/Users/goksalcavdar/IdeaProjects/Amazon"/>
     <property name="os.arch" value="x86_64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.library.path" value="/Users/goksalcavdar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.version" value="12.0.1+12"/>
+    <property name="java.vm.version" value="15.0.1+9-18"/>
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="java.class.version" value="56.0"/>
+    <property name="java.class.version" value="59.0"/>
   </properties>
-  <testcase name="Selecting the product correctly and seeing its definition" classname="Shopping from Amazon" time="8.459">
-    <error message="unknown error: cannot determine loading status&#10;from unknown error: unexpected command response&#10;  (Session info: chrome=103.0.5060.53)&#10;Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;&#10;System info: host: &apos;00136C&apos;, ip: &apos;2607:9880:4130:5c:b438:9e40:92d:6503%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;12.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [a311d8f49d0c7f1b28df8f04619a8041, clickElement {id=3240b8cf-330b-4ce8-8bfc-0cdb915fc6c0}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/8d/2k8k0_ns53q...}, goog:chromeOptions: {debuggerAddress: localhost:52427}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:52427/devtoo..., se:cdpVersion: 103.0.5060.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on MAC (a311d8f49d0c7f1b28df8f04619a8041)] -&gt; xpath: //*[@class=&apos;a-list-item&apos;]//*[text()=&apos;Electronics&apos;]//following::*[text()=&apos;Televisions&apos;]]&#10;Session ID: a311d8f49d0c7f1b28df8f04619a8041" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
-unknown error: cannot determine loading status
-from unknown error: unexpected command response
-  (Session info: chrome=103.0.5060.53)
+  <testcase name="Selecting the product correctly and seeing its definition #1" classname="Shopping from Amazon" time="29.837"/>
+  <testcase name="Selecting the product correctly and seeing its definition #1" classname="Shopping from Amazon" time="13.517">
+    <error message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=103.0.5060.114)&#10;Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;&#10;System info: host: &apos;00136C&apos;, ip: &apos;2607:9880:4130:5c:0:0:0:3a6c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [d846952a66cea7bcb16676bbebf2810f, findElement {using=id, value=nav-hamburger-menu}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/8d/2k8k0_ns53q...}, goog:chromeOptions: {debuggerAddress: localhost:61976}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:61976/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: d846952a66cea7bcb16676bbebf2810f" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.114)
 Build info: version: '4.1.4', revision: '535d840ee2'
-System info: host: '00136C', ip: '2607:9880:4130:5c:b438:9e40:92d:6503%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '12.0.1'
+System info: host: '00136C', ip: '2607:9880:4130:5c:0:0:0:3a6c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a311d8f49d0c7f1b28df8f04619a8041, clickElement {id=3240b8cf-330b-4ce8-8bfc-0cdb915fc6c0}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/8d/2k8k0_ns53q...}, goog:chromeOptions: {debuggerAddress: localhost:52427}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:52427/devtoo..., se:cdpVersion: 103.0.5060.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on MAC (a311d8f49d0c7f1b28df8f04619a8041)] -> xpath: //*[@class='a-list-item']//*[text()='Electronics']//following::*[text()='Televisions']]
-Session ID: a311d8f49d0c7f1b28df8f04619a8041
-</error>
-    <system-out><![CDATA[&amp#27;[32m&amp#27;[1m┌───────────────────────────────────────────────────────────────────────────────────┐&amp#27;[0m
-&amp#27;[32m&amp#27;[1m│&amp#27;[0m Share your Cucumber Report with your team at &amp#27;[36m&amp#27;[1m&amp#27;[4mhttps://reports.cucumber.io&amp#27;[0m          &amp#27;[32m&amp#27;[1m│&amp#27;[0m
-&amp#27;[32m&amp#27;[1m│&amp#27;[0m Activate publishing with one of the following:                                    &amp#27;[32m&amp#27;[1m│&amp#27;[0m
-&amp#27;[32m&amp#27;[1m│&amp#27;[0m                                                                                   &amp#27;[32m&amp#27;[1m│&amp#27;[0m
-&amp#27;[32m&amp#27;[1m│&amp#27;[0m src/test/resources/cucumber.properties:          &amp#27;[36mcucumber.publish.enabled&amp#27;[0m=&amp#27;[36mtrue&amp#27;[0m    &amp#27;[32m&amp#27;[1m│&amp#27;[0m
-&amp#27;[32m&amp#27;[1m│&amp#27;[0m src/test/resources/junit-platform.properties:    &amp#27;[36mcucumber.publish.enabled&amp#27;[0m=&amp#27;[36mtrue&amp#27;[0m    &amp#27;[32m&amp#27;[1m│&amp#27;[0m
-&amp#27;[32m&amp#27;[1m│&amp#27;[0m Environment variable:                            &amp#27;[36mCUCUMBER_PUBLISH_ENABLED&amp#27;[0m=&amp#27;[36mtrue&amp#27;[0m    &amp#27;[32m&amp#27;[1m│&amp#27;[0m
-&amp#27;[32m&amp#27;[1m│&amp#27;[0m JUnit:                                           &amp#27;[36m@CucumberOptions&amp#27;[0m(publish = &amp#27;[36mtrue&amp#27;[0m) &amp#27;[32m&amp#27;[1m│&amp#27;[0m
-&amp#27;[32m&amp#27;[1m│&amp#27;[0m                                                                                   &amp#27;[32m&amp#27;[1m│&amp#27;[0m
-&amp#27;[32m&amp#27;[1m│&amp#27;[0m More information at &amp#27;[36mhttps://reports.cucumber.io/docs/cucumber-jvm&amp#27;[0m                 &amp#27;[32m&amp#27;[1m│&amp#27;[0m
-&amp#27;[32m&amp#27;[1m│&amp#27;[0m                                                                                   &amp#27;[32m&amp#27;[1m│&amp#27;[0m
-&amp#27;[32m&amp#27;[1m│&amp#27;[0m Disable this message with one of the following:                                   &amp#27;[32m&amp#27;[1m│&amp#27;[0m
-&amp#27;[32m&amp#27;[1m│&amp#27;[0m                                                                                   &amp#27;[32m&amp#27;[1m│&amp#27;[0m
-&amp#27;[32m&amp#27;[1m│&amp#27;[0m src/test/resources/cucumber.properties:          &amp#27;[36mcucumber.publish.quiet&amp#27;[0m=&amp#27;[36mtrue&amp#27;[0m      &amp#27;[32m&amp#27;[1m│&amp#27;[0m
-&amp#27;[32m&amp#27;[1m│&amp#27;[0m src/test/resources/junit-platform.properties:    &amp#27;[36mcucumber.publish.quiet&amp#27;[0m=&amp#27;[36mtrue&amp#27;[0m      &amp#27;[32m&amp#27;[1m│&amp#27;[0m
-&amp#27;[32m&amp#27;[1m└───────────────────────────────────────────────────────────────────────────────────┘&amp#27;[0m
-&amp#27;[32m&amp#27;[1m┌───────────────────────────────────────────────────────────────────────────────────┐&amp#27;[0m
-&amp#27;[32m&amp#27;[1m│&amp#27;[0m Share your Cucumber Report with your team at &amp#27;[36m&amp#27;[1m&amp#27;[4mhttps://reports.cucumber.io&amp#27;[0m          &amp#27;[32m&amp#27;[1m│&amp#27;[0m
-&amp#27;[32m&amp#27;[1m│&amp#27;[0m Activate publishing with one of the following:                                    &amp#27;[32m&amp#27;[1m│&amp#27;[0m
-&amp#27;[32m&amp#27;[1m│&amp#27;[0m                                                                                   &amp#27;[32m&amp#27;[1m│&amp#27;[0m
-&amp#27;[32m&amp#27;[1m│&amp#27;[0m src/test/resources/cucumber.properties:          &amp#27;[36mcucumber.publish.enabled&amp#27;[0m=&amp#27;[36mtrue&amp#27;[0m    &amp#27;[32m&amp#27;[1m│&amp#27;[0m
-&amp#27;[32m&amp#27;[1m│&amp#27;[0m src/test/resources/junit-platform.properties:    &amp#27;[36mcucumber.publish.enabled&amp#27;[0m=&amp#27;[36mtrue&amp#27;[0m    &amp#27;[32m&amp#27;[1m│&amp#27;[0m
-&amp#27;[32m&amp#27;[1m│&amp#27;[0m Environment variable:                            &amp#27;[36mCUCUMBER_PUBLISH_ENABLED&amp#27;[0m=&amp#27;[36mtrue&amp#27;[0m    &amp#27;[32m&amp#27;[1m│&amp#27;[0m
-&amp#27;[32m&amp#27;[1m│&amp#27;[0m JUnit:                                           &amp#27;[36m@CucumberOptions&amp#27;[0m(publish = &amp#27;[36mtrue&amp#27;[0m) &amp#27;[32m&amp#27;[1m│&amp#27;[0m
-&amp#27;[32m&amp#27;[1m│&amp#27;[0m                                                                                   &amp#27;[32m&amp#27;[1m│&amp#27;[0m
-&amp#27;[32m&amp#27;[1m│&amp#27;[0m More information at &amp#27;[36mhttps://reports.cucumber.io/docs/cucumber-jvm&amp#27;[0m                 &amp#27;[32m&amp#27;[1m│&amp#27;[0m
-&amp#27;[32m&amp#27;[1m│&amp#27;[0m                                                                                   &amp#27;[32m&amp#27;[1m│&amp#27;[0m
-&amp#27;[32m&amp#27;[1m│&amp#27;[0m Disable this message with one of the following:                                   &amp#27;[32m&amp#27;[1m│&amp#27;[0m
-&amp#27;[32m&amp#27;[1m│&amp#27;[0m                                                                                   &amp#27;[32m&amp#27;[1m│&amp#27;[0m
-&amp#27;[32m&amp#27;[1m│&amp#27;[0m src/test/resources/cucumber.properties:          &amp#27;[36mcucumber.publish.quiet&amp#27;[0m=&amp#27;[36mtrue&amp#27;[0m      &amp#27;[32m&amp#27;[1m│&amp#27;[0m
-&amp#27;[32m&amp#27;[1m│&amp#27;[0m src/test/resources/junit-platform.properties:    &amp#27;[36mcucumber.publish.quiet&amp#27;[0m=&amp#27;[36mtrue&amp#27;[0m      &amp#27;[32m&amp#27;[1m│&amp#27;[0m
-&amp#27;[32m&amp#27;[1m└───────────────────────────────────────────────────────────────────────────────────┘&amp#27;[0m
-Test failed
-]]></system-out>
-    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
-SLF4J: Defaulting to no-operation (NOP) logger implementation
-SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-log4j:WARN No appenders could be found for logger (io.netty.util.internal.logging.InternalLoggerFactory).
-log4j:WARN Please initialize the log4j system properly.
-log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
-Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 53068
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 02, 2022 2:21:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-Jul 02, 2022 2:21:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 103, so returning the closest version found: 101
-Jul 02, 2022 2:21:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Found CDP implementation for version 103 of 101
-]]></system-err>
-  </testcase>
-  <testcase name="Selecting the product correctly and seeing its definition" classname="Shopping from Amazon" time="8.102">
-    <error message="unknown error: cannot determine loading status&#10;from unknown error: unexpected command response&#10;  (Session info: chrome=103.0.5060.53)&#10;Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;&#10;System info: host: &apos;00136C&apos;, ip: &apos;2607:9880:4130:5c:b438:9e40:92d:6503%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;12.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [279a4c5e821a1298d55b6958330b97db, clickElement {id=99a6e0db-4664-4b90-9753-5031ca155853}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/8d/2k8k0_ns53q...}, goog:chromeOptions: {debuggerAddress: localhost:52508}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:52508/devtoo..., se:cdpVersion: 103.0.5060.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on MAC (279a4c5e821a1298d55b6958330b97db)] -&gt; xpath: //*[@class=&apos;a-list-item&apos;]//*[text()=&apos;Electronics&apos;]//following::*[text()=&apos;Televisions&apos;]]&#10;Session ID: 279a4c5e821a1298d55b6958330b97db" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
-unknown error: cannot determine loading status
-from unknown error: unexpected command response
-  (Session info: chrome=103.0.5060.53)
-Build info: version: '4.1.4', revision: '535d840ee2'
-System info: host: '00136C', ip: '2607:9880:4130:5c:b438:9e40:92d:6503%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '12.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [279a4c5e821a1298d55b6958330b97db, clickElement {id=99a6e0db-4664-4b90-9753-5031ca155853}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/8d/2k8k0_ns53q...}, goog:chromeOptions: {debuggerAddress: localhost:52508}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:52508/devtoo..., se:cdpVersion: 103.0.5060.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on MAC (279a4c5e821a1298d55b6958330b97db)] -> xpath: //*[@class='a-list-item']//*[text()='Electronics']//following::*[text()='Televisions']]
-Session ID: 279a4c5e821a1298d55b6958330b97db
+Command: [d846952a66cea7bcb16676bbebf2810f, findElement {using=id, value=nav-hamburger-menu}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/8d/2k8k0_ns53q...}, goog:chromeOptions: {debuggerAddress: localhost:61976}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:61976/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d846952a66cea7bcb16676bbebf2810f
 </error>
     <system-out><![CDATA[
 @amazon
 Scenario Outline: Selecting the product correctly and seeing its definition                                                                                                  &amp#27;[90m# src/test/resources/features/AmazonShopping.feature:18&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user is on the main page&amp#27;[0m                                                                                                                                         &amp#27;[90m# com.amazon.step_definitions.MainPageSteps.the_user_on_the_chart_page()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user clicks on burger menu for all products&amp#27;[0m                                                                                                                       &amp#27;[90m# com.amazon.step_definitions.MainPageSteps.the_user_clicks_to_burger_menu_for_all_products()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe user clicks &amp#27;[0m&amp#27;[32m&amp#27;[1m"Electronics, Computers & Office"&amp#27;[0m&amp#27;[32m on the main page&amp#27;[0m                                                                                                    &amp#27;[90m# com.amazon.step_definitions.MainPageSteps.the_user_clicks_products_on_the_main_page(java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe user clicks the &amp#27;[0m&amp#27;[32m&amp#27;[1m"TV & Home Theatre"&amp#27;[0m&amp#27;[32m on the main page&amp#27;[0m                                                                                                               &amp#27;[90m# com.amazon.step_definitions.MainPageSteps.the_user_clicks_products(java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe user is on the categorised product page with &amp#27;[0m&amp#27;[32m&amp#27;[1m"Amazon.ca: Televisions & Video: Electronics: Accessories, Projectors, AV Receivers & Amplifiers, Televisions & More"&amp#27;[0m &amp#27;[90m# com.amazon.step_definitions.CategorisedProductPageSteps.the_user_on_the_categorised_product_page_title(java.lang.String)&amp#27;[0m
-  &amp#27;[31mAnd &amp#27;[0m&amp#27;[31mthe user clicks the &amp#27;[0m&amp#27;[31m&amp#27;[1m"Televisions"&amp#27;[0m&amp#27;[31m which is under the &amp#27;[0m&amp#27;[31m&amp#27;[1m"Electronics"&amp#27;[0m&amp#27;[31m on the categorised product page&amp#27;[0m                                                                     &amp#27;[90m# com.amazon.step_definitions.CategorisedProductPageSteps.the_user_clicks_the_product_is_under_the_common_on_categorised_the_product_page(java.lang.String,java.lang.String)&amp#27;[0m
-      &amp#27;[31morg.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
-from unknown error: unexpected command response
-  (Session info: chrome=103.0.5060.53)
+  &amp#27;[31mWhen &amp#27;[0m&amp#27;[31mthe user clicks on burger menu for all products&amp#27;[0m                                                                                                                       &amp#27;[90m# com.amazon.step_definitions.MainPageSteps.the_user_clicks_to_burger_menu_for_all_products()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.114)
 Build info: version: '4.1.4', revision: '535d840ee2'
-System info: host: '00136C', ip: '2607:9880:4130:5c:b438:9e40:92d:6503%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '12.0.1'
+System info: host: '00136C', ip: '2607:9880:4130:5c:0:0:0:3a6c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [279a4c5e821a1298d55b6958330b97db, clickElement {id=99a6e0db-4664-4b90-9753-5031ca155853}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/8d/2k8k0_ns53q...}, goog:chromeOptions: {debuggerAddress: localhost:52508}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:52508/devtoo..., se:cdpVersion: 103.0.5060.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on MAC (279a4c5e821a1298d55b6958330b97db)] -> xpath: //*[@class='a-list-item']//*[text()='Electronics']//following::*[text()='Televisions']]
-Session ID: 279a4c5e821a1298d55b6958330b97db
+Command: [d846952a66cea7bcb16676bbebf2810f, findElement {using=id, value=nav-hamburger-menu}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/8d/2k8k0_ns53q...}, goog:chromeOptions: {debuggerAddress: localhost:61976}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:61976/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d846952a66cea7bcb16676bbebf2810f
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
@@ -167,32 +94,617 @@ Session ID: 279a4c5e821a1298d55b6958330b97db
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-	at com.amazon.pages.CategorisedProductPage.clickCategorisedProduct(CategorisedProductPage.java:13)
-	at com.amazon.step_definitions.CategorisedProductPageSteps.the_user_clicks_the_product_is_under_the_common_on_categorised_the_product_page(CategorisedProductPageSteps.java:19)
-	at ✽.the user clicks the "Televisions" which is under the "Electronics" on the categorised product page(file:///Users/goksalcavdar/IdeaProjects/Amazon/src/test/resources/features/AmazonShopping.feature:9)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy22.toString(Unknown Source)
+	at java.base/java.lang.String.valueOf(String.java:3367)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.toString(ExpectedConditions.java:673)
+	at java.base/java.lang.String.valueOf(String.java:3367)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at com.amazon.utilities.BrowserUtils.waitForClickablility(BrowserUtils.java:37)
+	at com.amazon.pages.MainPage.clickAllBurgerMenu(MainPage.java:15)
+	at com.amazon.step_definitions.MainPageSteps.the_user_clicks_to_burger_menu_for_all_products(MainPageSteps.java:20)
+	at ✽.the user clicks on burger menu for all products(file:///Users/goksalcavdar/IdeaProjects/Amazon/src/test/resources/features/AmazonShopping.feature:5)
 &amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mthe user clicks &amp#27;[0m&amp#27;[36m&amp#27;[1m"Electronics, Computers & Office"&amp#27;[0m&amp#27;[36m on the main page&amp#27;[0m                                                                                                    &amp#27;[90m# com.amazon.step_definitions.MainPageSteps.the_user_clicks_products_on_the_main_page(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe user clicks the &amp#27;[0m&amp#27;[36m&amp#27;[1m"TV & Home Theatre"&amp#27;[0m&amp#27;[36m on the main page&amp#27;[0m                                                                                                               &amp#27;[90m# com.amazon.step_definitions.MainPageSteps.the_user_clicks_products(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe user is on the categorised product page with &amp#27;[0m&amp#27;[36m&amp#27;[1m"Amazon.ca: Televisions & Video: Electronics: Accessories, Projectors, AV Receivers & Amplifiers, Televisions & More"&amp#27;[0m &amp#27;[90m# com.amazon.step_definitions.CategorisedProductPageSteps.the_user_on_the_categorised_product_page_title(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe user clicks the &amp#27;[0m&amp#27;[36m&amp#27;[1m"Televisions"&amp#27;[0m&amp#27;[36m which is under the &amp#27;[0m&amp#27;[36m&amp#27;[1m"Electronics"&amp#27;[0m&amp#27;[36m on the categorised product page&amp#27;[0m                                                                     &amp#27;[90m# com.amazon.step_definitions.CategorisedProductPageSteps.the_user_clicks_the_product_is_under_the_common_on_categorised_the_product_page(java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[36mThen &amp#27;[0m&amp#27;[36mthe user is on the product page with &amp#27;[0m&amp#27;[36m&amp#27;[1m"Amazon.ca: Televisions - Televisions & Video: Electronics"&amp#27;[0m                                                                      &amp#27;[90m# com.amazon.step_definitions.ProductPageSteps.the_user_on_the_product_page(java.lang.String)&amp#27;[0m
   &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mthe user clicks on the &amp#27;[0m&amp#27;[36m&amp#27;[1m"Samsung"&amp#27;[0m                                                                                                                                      &amp#27;[90m# com.amazon.step_definitions.ProductPageSteps.the_user_clicks_on_the_particular_product(java.lang.String)&amp#27;[0m
   &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe user selects price preference from &amp#27;[0m&amp#27;[36m&amp#27;[1m"Price: High to Low"&amp#27;[0m&amp#27;[36m on the result page&amp#27;[0m                                                                                         &amp#27;[90m# com.amazon.step_definitions.ResultsPageSteps.the_user_clicks_on_the_particular_product(java.lang.String)&amp#27;[0m
   &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe user clicks the second highest priced product on the results page&amp#27;[0m                                                                                                  &amp#27;[90m# com.amazon.step_definitions.ResultsPageSteps.the_user_clicks_the_second_highest_priced_product_on_the_results_page()&amp#27;[0m
   &amp#27;[36mThen &amp#27;[0m&amp#27;[36mthe product description header is visible to the user&amp#27;[0m                                                                                                                 &amp#27;[90m# com.amazon.step_definitions.ProductDescriptionPageSteps.the_product_description_header_is_visible_to_the_user()&amp#27;[0m
 Test failed
-
-    Embedding screenshot [image/png 2275350 bytes]
-
+      &amp#27;[31morg.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: '00136C', ip: '2607:9880:4130:5c:0:0:0:3a6c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d846952a66cea7bcb16676bbebf2810f, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/8d/2k8k0_ns53q...}, goog:chromeOptions: {debuggerAddress: localhost:61976}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:61976/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d846952a66cea7bcb16676bbebf2810f
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:351)
+	at com.amazon.step_definitions.Hooks.tearDown(Hooks.java:29)
+&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 60455
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 56448
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jul 02, 2022 2:21:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jul 04, 2022 6:24:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Jul 02, 2022 2:21:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 04, 2022 6:24:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 103, so returning the closest version found: 101
-Jul 02, 2022 2:21:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 04, 2022 6:24:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 103 of 101
 ]]></system-err>
+  </testcase>
+  <testcase name="Selecting the product correctly and seeing its definition #1" classname="Shopping from Amazon" time="0">
+    <error message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=103.0.5060.114)&#10;Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;&#10;System info: host: &apos;00136C&apos;, ip: &apos;2607:9880:4130:5c:0:0:0:3a6c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [d846952a66cea7bcb16676bbebf2810f, screenshot {}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/8d/2k8k0_ns53q...}, goog:chromeOptions: {debuggerAddress: localhost:61976}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:61976/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: d846952a66cea7bcb16676bbebf2810f" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: '00136C', ip: '2607:9880:4130:5c:0:0:0:3a6c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d846952a66cea7bcb16676bbebf2810f, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/8d/2k8k0_ns53q...}, goog:chromeOptions: {debuggerAddress: localhost:61976}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:61976/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d846952a66cea7bcb16676bbebf2810f
+</error>
+  </testcase>
+  <testcase name="Selecting the product correctly and seeing its definition #2" classname="Shopping from Amazon" time="28.78"/>
+  <testcase name="Selecting the product correctly and seeing its definition #2" classname="Shopping from Amazon" time="0.01">
+    <error message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=103.0.5060.114)&#10;Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;&#10;System info: host: &apos;00136C&apos;, ip: &apos;2607:9880:4130:5c:0:0:0:3a6c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [d846952a66cea7bcb16676bbebf2810f, maximizeCurrentWindow {}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/8d/2k8k0_ns53q...}, goog:chromeOptions: {debuggerAddress: localhost:61976}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:61976/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: d846952a66cea7bcb16676bbebf2810f" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: '00136C', ip: '2607:9880:4130:5c:0:0:0:3a6c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d846952a66cea7bcb16676bbebf2810f, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/8d/2k8k0_ns53q...}, goog:chromeOptions: {debuggerAddress: localhost:61976}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:61976/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d846952a66cea7bcb16676bbebf2810f
+</error>
+    <system-out><![CDATA[
+@amazon
+Scenario Outline: Selecting the product correctly and seeing its definition                                                                                                  &amp#27;[90m# src/test/resources/features/AmazonShopping.feature:19&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: '00136C', ip: '2607:9880:4130:5c:0:0:0:3a6c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d846952a66cea7bcb16676bbebf2810f, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/8d/2k8k0_ns53q...}, goog:chromeOptions: {debuggerAddress: localhost:61976}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:61976/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d846952a66cea7bcb16676bbebf2810f
+	at jdk.internal.reflect.GeneratedConstructorAccessor13.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:993)
+	at com.amazon.step_definitions.Hooks.setUp(Hooks.java:19)
+&amp#27;[0m
+  &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mthe user is on the main page&amp#27;[0m                                                                                                                                         &amp#27;[90m# com.amazon.step_definitions.MainPageSteps.the_user_on_the_chart_page()&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mthe user clicks on burger menu for all products&amp#27;[0m                                                                                                                       &amp#27;[90m# com.amazon.step_definitions.MainPageSteps.the_user_clicks_to_burger_menu_for_all_products()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mthe user clicks &amp#27;[0m&amp#27;[36m&amp#27;[1m"Electronics, Computers & Office"&amp#27;[0m&amp#27;[36m on the main page&amp#27;[0m                                                                                                    &amp#27;[90m# com.amazon.step_definitions.MainPageSteps.the_user_clicks_products_on_the_main_page(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe user clicks the &amp#27;[0m&amp#27;[36m&amp#27;[1m"TV & Home Theatre"&amp#27;[0m&amp#27;[36m on the main page&amp#27;[0m                                                                                                               &amp#27;[90m# com.amazon.step_definitions.MainPageSteps.the_user_clicks_products(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe user is on the categorised product page with &amp#27;[0m&amp#27;[36m&amp#27;[1m"Amazon.ca: Televisions & Video: Electronics: Accessories, Projectors, AV Receivers & Amplifiers, Televisions & More"&amp#27;[0m &amp#27;[90m# com.amazon.step_definitions.CategorisedProductPageSteps.the_user_on_the_categorised_product_page_title(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe user clicks the &amp#27;[0m&amp#27;[36m&amp#27;[1m"Televisions"&amp#27;[0m&amp#27;[36m which is under the &amp#27;[0m&amp#27;[36m&amp#27;[1m"Electronics"&amp#27;[0m&amp#27;[36m on the categorised product page&amp#27;[0m                                                                     &amp#27;[90m# com.amazon.step_definitions.CategorisedProductPageSteps.the_user_clicks_the_product_is_under_the_common_on_categorised_the_product_page(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mthe user is on the product page with &amp#27;[0m&amp#27;[36m&amp#27;[1m"Amazon.ca: Televisions - Televisions & Video: Electronics"&amp#27;[0m                                                                      &amp#27;[90m# com.amazon.step_definitions.ProductPageSteps.the_user_on_the_product_page(java.lang.String)&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mthe user clicks on the &amp#27;[0m&amp#27;[36m&amp#27;[1m"Hisense"&amp#27;[0m                                                                                                                                      &amp#27;[90m# com.amazon.step_definitions.ProductPageSteps.the_user_clicks_on_the_particular_product(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe user selects price preference from &amp#27;[0m&amp#27;[36m&amp#27;[1m"Price: High to Low"&amp#27;[0m&amp#27;[36m on the result page&amp#27;[0m                                                                                         &amp#27;[90m# com.amazon.step_definitions.ResultsPageSteps.the_user_clicks_on_the_particular_product(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe user clicks the second highest priced product on the results page&amp#27;[0m                                                                                                  &amp#27;[90m# com.amazon.step_definitions.ResultsPageSteps.the_user_clicks_the_second_highest_priced_product_on_the_results_page()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mthe product description header is visible to the user&amp#27;[0m                                                                                                                 &amp#27;[90m# com.amazon.step_definitions.ProductDescriptionPageSteps.the_product_description_header_is_visible_to_the_user()&amp#27;[0m
+Test failed
+      &amp#27;[31morg.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: '00136C', ip: '2607:9880:4130:5c:0:0:0:3a6c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d846952a66cea7bcb16676bbebf2810f, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/8d/2k8k0_ns53q...}, goog:chromeOptions: {debuggerAddress: localhost:61976}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:61976/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d846952a66cea7bcb16676bbebf2810f
+	at jdk.internal.reflect.GeneratedConstructorAccessor13.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:351)
+	at com.amazon.step_definitions.Hooks.tearDown(Hooks.java:29)
+&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Selecting the product correctly and seeing its definition #2" classname="Shopping from Amazon" time="0">
+    <error message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=103.0.5060.114)&#10;Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;&#10;System info: host: &apos;00136C&apos;, ip: &apos;2607:9880:4130:5c:0:0:0:3a6c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [d846952a66cea7bcb16676bbebf2810f, screenshot {}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/8d/2k8k0_ns53q...}, goog:chromeOptions: {debuggerAddress: localhost:61976}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:61976/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: d846952a66cea7bcb16676bbebf2810f" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: '00136C', ip: '2607:9880:4130:5c:0:0:0:3a6c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d846952a66cea7bcb16676bbebf2810f, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/8d/2k8k0_ns53q...}, goog:chromeOptions: {debuggerAddress: localhost:61976}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:61976/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d846952a66cea7bcb16676bbebf2810f
+</error>
+  </testcase>
+  <testcase name="Selecting the product correctly and seeing its definition #3" classname="Shopping from Amazon" time="13.882">
+    <failure message="expected:&lt;[Amazon.ca: Televisions &amp; Video: Electronics: Accessories, Projectors, AV Receivers &amp; Amplifiers, Televisions &amp; More]&gt; but was:&lt;[]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[Amazon.ca: Televisions & Video: Electronics: Accessories, Projectors, AV Receivers & Amplifiers, Televisions & More]> but was:<[]>
+]]></failure>
+    <system-out><![CDATA[Test failed
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 59856
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 04, 2022 6:22:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jul 04, 2022 6:22:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 103, so returning the closest version found: 101
+Jul 04, 2022 6:22:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 103 of 101
+]]></system-err>
+  </testcase>
+  <testcase name="Selecting the product correctly and seeing its definition #3" classname="Shopping from Amazon" time="0.009">
+    <error message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=103.0.5060.114)&#10;Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;&#10;System info: host: &apos;00136C&apos;, ip: &apos;2607:9880:4130:5c:0:0:0:3a6c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [d846952a66cea7bcb16676bbebf2810f, maximizeCurrentWindow {}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/8d/2k8k0_ns53q...}, goog:chromeOptions: {debuggerAddress: localhost:61976}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:61976/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: d846952a66cea7bcb16676bbebf2810f" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: '00136C', ip: '2607:9880:4130:5c:0:0:0:3a6c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d846952a66cea7bcb16676bbebf2810f, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/8d/2k8k0_ns53q...}, goog:chromeOptions: {debuggerAddress: localhost:61976}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:61976/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d846952a66cea7bcb16676bbebf2810f
+</error>
+    <system-out><![CDATA[
+@amazon
+Scenario Outline: Selecting the product correctly and seeing its definition                                                                                                  &amp#27;[90m# src/test/resources/features/AmazonShopping.feature:20&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: '00136C', ip: '2607:9880:4130:5c:0:0:0:3a6c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d846952a66cea7bcb16676bbebf2810f, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/8d/2k8k0_ns53q...}, goog:chromeOptions: {debuggerAddress: localhost:61976}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:61976/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d846952a66cea7bcb16676bbebf2810f
+	at jdk.internal.reflect.GeneratedConstructorAccessor13.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:993)
+	at com.amazon.step_definitions.Hooks.setUp(Hooks.java:19)
+&amp#27;[0m
+  &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mthe user is on the main page&amp#27;[0m                                                                                                                                         &amp#27;[90m# com.amazon.step_definitions.MainPageSteps.the_user_on_the_chart_page()&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mthe user clicks on burger menu for all products&amp#27;[0m                                                                                                                       &amp#27;[90m# com.amazon.step_definitions.MainPageSteps.the_user_clicks_to_burger_menu_for_all_products()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mthe user clicks &amp#27;[0m&amp#27;[36m&amp#27;[1m"Electronics, Computers & Office"&amp#27;[0m&amp#27;[36m on the main page&amp#27;[0m                                                                                                    &amp#27;[90m# com.amazon.step_definitions.MainPageSteps.the_user_clicks_products_on_the_main_page(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe user clicks the &amp#27;[0m&amp#27;[36m&amp#27;[1m"TV & Home Theatre"&amp#27;[0m&amp#27;[36m on the main page&amp#27;[0m                                                                                                               &amp#27;[90m# com.amazon.step_definitions.MainPageSteps.the_user_clicks_products(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe user is on the categorised product page with &amp#27;[0m&amp#27;[36m&amp#27;[1m"Amazon.ca: Televisions & Video: Electronics: Accessories, Projectors, AV Receivers & Amplifiers, Televisions & More"&amp#27;[0m &amp#27;[90m# com.amazon.step_definitions.CategorisedProductPageSteps.the_user_on_the_categorised_product_page_title(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe user clicks the &amp#27;[0m&amp#27;[36m&amp#27;[1m"Televisions"&amp#27;[0m&amp#27;[36m which is under the &amp#27;[0m&amp#27;[36m&amp#27;[1m"Electronics"&amp#27;[0m&amp#27;[36m on the categorised product page&amp#27;[0m                                                                     &amp#27;[90m# com.amazon.step_definitions.CategorisedProductPageSteps.the_user_clicks_the_product_is_under_the_common_on_categorised_the_product_page(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mthe user is on the product page with &amp#27;[0m&amp#27;[36m&amp#27;[1m"Amazon.ca: Televisions - Televisions & Video: Electronics"&amp#27;[0m                                                                      &amp#27;[90m# com.amazon.step_definitions.ProductPageSteps.the_user_on_the_product_page(java.lang.String)&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mthe user clicks on the &amp#27;[0m&amp#27;[36m&amp#27;[1m"LG"&amp#27;[0m                                                                                                                                           &amp#27;[90m# com.amazon.step_definitions.ProductPageSteps.the_user_clicks_on_the_particular_product(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe user selects price preference from &amp#27;[0m&amp#27;[36m&amp#27;[1m"Price: High to Low"&amp#27;[0m&amp#27;[36m on the result page&amp#27;[0m                                                                                         &amp#27;[90m# com.amazon.step_definitions.ResultsPageSteps.the_user_clicks_on_the_particular_product(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe user clicks the second highest priced product on the results page&amp#27;[0m                                                                                                  &amp#27;[90m# com.amazon.step_definitions.ResultsPageSteps.the_user_clicks_the_second_highest_priced_product_on_the_results_page()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mthe product description header is visible to the user&amp#27;[0m                                                                                                                 &amp#27;[90m# com.amazon.step_definitions.ProductDescriptionPageSteps.the_product_description_header_is_visible_to_the_user()&amp#27;[0m
+Test failed
+      &amp#27;[31morg.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: '00136C', ip: '2607:9880:4130:5c:0:0:0:3a6c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d846952a66cea7bcb16676bbebf2810f, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/8d/2k8k0_ns53q...}, goog:chromeOptions: {debuggerAddress: localhost:61976}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:61976/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d846952a66cea7bcb16676bbebf2810f
+	at jdk.internal.reflect.GeneratedConstructorAccessor13.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:351)
+	at com.amazon.step_definitions.Hooks.tearDown(Hooks.java:29)
+&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Selecting the product correctly and seeing its definition #3" classname="Shopping from Amazon" time="0">
+    <error message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=103.0.5060.114)&#10;Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;&#10;System info: host: &apos;00136C&apos;, ip: &apos;2607:9880:4130:5c:0:0:0:3a6c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [d846952a66cea7bcb16676bbebf2810f, screenshot {}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/8d/2k8k0_ns53q...}, goog:chromeOptions: {debuggerAddress: localhost:61976}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:61976/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: d846952a66cea7bcb16676bbebf2810f" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: '00136C', ip: '2607:9880:4130:5c:0:0:0:3a6c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d846952a66cea7bcb16676bbebf2810f, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/8d/2k8k0_ns53q...}, goog:chromeOptions: {debuggerAddress: localhost:61976}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:61976/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d846952a66cea7bcb16676bbebf2810f
+</error>
+  </testcase>
+  <testcase name="Selecting the product correctly and seeing its definition #4" classname="Shopping from Amazon" time="52.226">
+    <error message="Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.xpath: (//*[@class=&apos;a-section a-spacing-base&apos;])[2]//div&apos; (tried for 10 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: (//*[@class='a-section a-spacing-base'])[2]//div' (tried for 10 second(s) with 500 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"(//*[@class='a-section a-spacing-base'])[2]//div"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: '00136C', ip: '2607:9880:4130:5c:0:0:0:3a6c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [403bfb6c38605dc3d5d0cdaffbede5e4, findElement {using=xpath, value=(//*[@class='a-section a-spacing-base'])[2]//div}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/8d/2k8k0_ns53q...}, goog:chromeOptions: {debuggerAddress: localhost:61203}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:61203/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 403bfb6c38605dc3d5d0cdaffbede5e4
+</error>
+    <system-out><![CDATA[Test failed
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 49299
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 04, 2022 6:22:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jul 04, 2022 6:22:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 103, so returning the closest version found: 101
+Jul 04, 2022 6:22:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 103 of 101
+]]></system-err>
+  </testcase>
+  <testcase name="Selecting the product correctly and seeing its definition #4" classname="Shopping from Amazon" time="0.009">
+    <error message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=103.0.5060.114)&#10;Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;&#10;System info: host: &apos;00136C&apos;, ip: &apos;2607:9880:4130:5c:0:0:0:3a6c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [d846952a66cea7bcb16676bbebf2810f, maximizeCurrentWindow {}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/8d/2k8k0_ns53q...}, goog:chromeOptions: {debuggerAddress: localhost:61976}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:61976/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: d846952a66cea7bcb16676bbebf2810f" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: '00136C', ip: '2607:9880:4130:5c:0:0:0:3a6c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d846952a66cea7bcb16676bbebf2810f, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/8d/2k8k0_ns53q...}, goog:chromeOptions: {debuggerAddress: localhost:61976}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:61976/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d846952a66cea7bcb16676bbebf2810f
+</error>
+    <system-out><![CDATA[
+@amazon
+Scenario Outline: Selecting the product correctly and seeing its definition                                                                              &amp#27;[90m# src/test/resources/features/AmazonShopping.feature:21&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: '00136C', ip: '2607:9880:4130:5c:0:0:0:3a6c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d846952a66cea7bcb16676bbebf2810f, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/8d/2k8k0_ns53q...}, goog:chromeOptions: {debuggerAddress: localhost:61976}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:61976/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d846952a66cea7bcb16676bbebf2810f
+	at jdk.internal.reflect.GeneratedConstructorAccessor13.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:993)
+	at com.amazon.step_definitions.Hooks.setUp(Hooks.java:19)
+&amp#27;[0m
+  &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mthe user is on the main page&amp#27;[0m                                                                                                                     &amp#27;[90m# com.amazon.step_definitions.MainPageSteps.the_user_on_the_chart_page()&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mthe user clicks on burger menu for all products&amp#27;[0m                                                                                                   &amp#27;[90m# com.amazon.step_definitions.MainPageSteps.the_user_clicks_to_burger_menu_for_all_products()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mthe user clicks &amp#27;[0m&amp#27;[36m&amp#27;[1m"Electronics, Computers & Office"&amp#27;[0m&amp#27;[36m on the main page&amp#27;[0m                                                                                &amp#27;[90m# com.amazon.step_definitions.MainPageSteps.the_user_clicks_products_on_the_main_page(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe user clicks the &amp#27;[0m&amp#27;[36m&amp#27;[1m"Headphones & Speakers"&amp#27;[0m&amp#27;[36m on the main page&amp#27;[0m                                                                                       &amp#27;[90m# com.amazon.step_definitions.MainPageSteps.the_user_clicks_products(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe user is on the categorised product page with &amp#27;[0m&amp#27;[36m&amp#27;[1m"Amazon.ca: Home & Portable Audio: Electronics"&amp#27;[0m                                                   &amp#27;[90m# com.amazon.step_definitions.CategorisedProductPageSteps.the_user_on_the_categorised_product_page_title(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe user clicks the &amp#27;[0m&amp#27;[36m&amp#27;[1m"Audio & Home Theatre"&amp#27;[0m&amp#27;[36m which is under the &amp#27;[0m&amp#27;[36m&amp#27;[1m"Electronics"&amp#27;[0m&amp#27;[36m on the categorised product page&amp#27;[0m                                        &amp#27;[90m# com.amazon.step_definitions.CategorisedProductPageSteps.the_user_clicks_the_product_is_under_the_common_on_categorised_the_product_page(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mthe user is on the product page with &amp#27;[0m&amp#27;[36m&amp#27;[1m"Amazon.ca: Home Audio: Electronics: Accessories, Radios & Boomboxes, Home Theatre Systems, Speakers & More"&amp#27;[0m &amp#27;[90m# com.amazon.step_definitions.ProductPageSteps.the_user_on_the_product_page(java.lang.String)&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mthe user clicks on the &amp#27;[0m&amp#27;[36m&amp#27;[1m"iSkey"&amp#27;[0m                                                                                                                    &amp#27;[90m# com.amazon.step_definitions.ProductPageSteps.the_user_clicks_on_the_particular_product(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe user selects price preference from &amp#27;[0m&amp#27;[36m&amp#27;[1m"Price: High to Low"&amp#27;[0m&amp#27;[36m on the result page&amp#27;[0m                                                                     &amp#27;[90m# com.amazon.step_definitions.ResultsPageSteps.the_user_clicks_on_the_particular_product(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe user clicks the second highest priced product on the results page&amp#27;[0m                                                                              &amp#27;[90m# com.amazon.step_definitions.ResultsPageSteps.the_user_clicks_the_second_highest_priced_product_on_the_results_page()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mthe product description header is visible to the user&amp#27;[0m                                                                                             &amp#27;[90m# com.amazon.step_definitions.ProductDescriptionPageSteps.the_product_description_header_is_visible_to_the_user()&amp#27;[0m
+Test failed
+      &amp#27;[31morg.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: '00136C', ip: '2607:9880:4130:5c:0:0:0:3a6c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d846952a66cea7bcb16676bbebf2810f, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/8d/2k8k0_ns53q...}, goog:chromeOptions: {debuggerAddress: localhost:61976}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:61976/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d846952a66cea7bcb16676bbebf2810f
+	at jdk.internal.reflect.GeneratedConstructorAccessor13.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:351)
+	at com.amazon.step_definitions.Hooks.tearDown(Hooks.java:29)
+&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Selecting the product correctly and seeing its definition #4" classname="Shopping from Amazon" time="0">
+    <error message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=103.0.5060.114)&#10;Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;&#10;System info: host: &apos;00136C&apos;, ip: &apos;2607:9880:4130:5c:0:0:0:3a6c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [d846952a66cea7bcb16676bbebf2810f, screenshot {}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/8d/2k8k0_ns53q...}, goog:chromeOptions: {debuggerAddress: localhost:61976}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:61976/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: d846952a66cea7bcb16676bbebf2810f" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: '00136C', ip: '2607:9880:4130:5c:0:0:0:3a6c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d846952a66cea7bcb16676bbebf2810f, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/8d/2k8k0_ns53q...}, goog:chromeOptions: {debuggerAddress: localhost:61976}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:61976/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d846952a66cea7bcb16676bbebf2810f
+</error>
+  </testcase>
+  <testcase name="Selecting the product correctly and seeing its definition #5" classname="Shopping from Amazon" time="24.347">
+    <error message="Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.id: nav-hamburger-menu&apos; (tried for 10 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.id: nav-hamburger-menu' (tried for 10 second(s) with 500 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#nav\-hamburger\-menu"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: '00136C', ip: '2607:9880:4130:5c:0:0:0:3a6c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ba5e640cf82575a3bf69431b2fc7bec5, findElement {using=id, value=nav-hamburger-menu}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/8d/2k8k0_ns53q...}, goog:chromeOptions: {debuggerAddress: localhost:61573}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:61573/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ba5e640cf82575a3bf69431b2fc7bec5
+</error>
+    <system-out><![CDATA[Test failed
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 63796
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 04, 2022 6:23:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jul 04, 2022 6:23:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 103, so returning the closest version found: 101
+Jul 04, 2022 6:23:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 103 of 101
+]]></system-err>
+  </testcase>
+  <testcase name="Selecting the product correctly and seeing its definition #5" classname="Shopping from Amazon" time="0.009">
+    <error message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=103.0.5060.114)&#10;Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;&#10;System info: host: &apos;00136C&apos;, ip: &apos;2607:9880:4130:5c:0:0:0:3a6c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [d846952a66cea7bcb16676bbebf2810f, maximizeCurrentWindow {}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/8d/2k8k0_ns53q...}, goog:chromeOptions: {debuggerAddress: localhost:61976}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:61976/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: d846952a66cea7bcb16676bbebf2810f" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: '00136C', ip: '2607:9880:4130:5c:0:0:0:3a6c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d846952a66cea7bcb16676bbebf2810f, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/8d/2k8k0_ns53q...}, goog:chromeOptions: {debuggerAddress: localhost:61976}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:61976/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d846952a66cea7bcb16676bbebf2810f
+</error>
+    <system-out><![CDATA[
+@amazon
+Scenario Outline: Selecting the product correctly and seeing its definition                                                                                             &amp#27;[90m# src/test/resources/features/AmazonShopping.feature:22&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: '00136C', ip: '2607:9880:4130:5c:0:0:0:3a6c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d846952a66cea7bcb16676bbebf2810f, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/8d/2k8k0_ns53q...}, goog:chromeOptions: {debuggerAddress: localhost:61976}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:61976/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d846952a66cea7bcb16676bbebf2810f
+	at jdk.internal.reflect.GeneratedConstructorAccessor13.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:993)
+	at com.amazon.step_definitions.Hooks.setUp(Hooks.java:19)
+&amp#27;[0m
+  &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mthe user is on the main page&amp#27;[0m                                                                                                                                    &amp#27;[90m# com.amazon.step_definitions.MainPageSteps.the_user_on_the_chart_page()&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mthe user clicks on burger menu for all products&amp#27;[0m                                                                                                                  &amp#27;[90m# com.amazon.step_definitions.MainPageSteps.the_user_clicks_to_burger_menu_for_all_products()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mthe user clicks &amp#27;[0m&amp#27;[36m&amp#27;[1m"Electronics, Computers & Office"&amp#27;[0m&amp#27;[36m on the main page&amp#27;[0m                                                                                               &amp#27;[90m# com.amazon.step_definitions.MainPageSteps.the_user_clicks_products_on_the_main_page(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe user clicks the &amp#27;[0m&amp#27;[36m&amp#27;[1m"Car Electronics"&amp#27;[0m&amp#27;[36m on the main page&amp#27;[0m                                                                                                            &amp#27;[90m# com.amazon.step_definitions.MainPageSteps.the_user_clicks_products(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe user is on the categorised product page with &amp#27;[0m&amp#27;[36m&amp#27;[1m"Amazon.ca: Car & Vehicle Electronics: Electronics: Accessories, Car Electronics, Motorcycle Electronics & More"&amp#27;[0m &amp#27;[90m# com.amazon.step_definitions.CategorisedProductPageSteps.the_user_on_the_categorised_product_page_title(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe user clicks the &amp#27;[0m&amp#27;[36m&amp#27;[1m"Marine Electronics"&amp#27;[0m&amp#27;[36m which is under the &amp#27;[0m&amp#27;[36m&amp#27;[1m"Electronics"&amp#27;[0m&amp#27;[36m on the categorised product page&amp#27;[0m                                                         &amp#27;[90m# com.amazon.step_definitions.CategorisedProductPageSteps.the_user_clicks_the_product_is_under_the_common_on_categorised_the_product_page(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mthe user is on the product page with &amp#27;[0m&amp#27;[36m&amp#27;[1m"Amazon.ca: Marine Electronics: Electronics: Marine Antennas & More"&amp#27;[0m                                                        &amp#27;[90m# com.amazon.step_definitions.ProductPageSteps.the_user_on_the_product_page(java.lang.String)&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mthe user clicks on the &amp#27;[0m&amp#27;[36m&amp#27;[1m"Boss Audio"&amp#27;[0m                                                                                                                              &amp#27;[90m# com.amazon.step_definitions.ProductPageSteps.the_user_clicks_on_the_particular_product(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe user selects price preference from &amp#27;[0m&amp#27;[36m&amp#27;[1m"Price: High to Low"&amp#27;[0m&amp#27;[36m on the result page&amp#27;[0m                                                                                    &amp#27;[90m# com.amazon.step_definitions.ResultsPageSteps.the_user_clicks_on_the_particular_product(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe user clicks the second highest priced product on the results page&amp#27;[0m                                                                                             &amp#27;[90m# com.amazon.step_definitions.ResultsPageSteps.the_user_clicks_the_second_highest_priced_product_on_the_results_page()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mthe product description header is visible to the user&amp#27;[0m                                                                                                            &amp#27;[90m# com.amazon.step_definitions.ProductDescriptionPageSteps.the_product_description_header_is_visible_to_the_user()&amp#27;[0m
+Test failed
+      &amp#27;[31morg.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: '00136C', ip: '2607:9880:4130:5c:0:0:0:3a6c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d846952a66cea7bcb16676bbebf2810f, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/8d/2k8k0_ns53q...}, goog:chromeOptions: {debuggerAddress: localhost:61976}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:61976/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d846952a66cea7bcb16676bbebf2810f
+	at jdk.internal.reflect.GeneratedConstructorAccessor13.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:351)
+	at com.amazon.step_definitions.Hooks.tearDown(Hooks.java:29)
+&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Selecting the product correctly and seeing its definition #5" classname="Shopping from Amazon" time="0">
+    <error message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=103.0.5060.114)&#10;Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;&#10;System info: host: &apos;00136C&apos;, ip: &apos;2607:9880:4130:5c:0:0:0:3a6c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [d846952a66cea7bcb16676bbebf2810f, screenshot {}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/8d/2k8k0_ns53q...}, goog:chromeOptions: {debuggerAddress: localhost:61976}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:61976/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: d846952a66cea7bcb16676bbebf2810f" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: '00136C', ip: '2607:9880:4130:5c:0:0:0:3a6c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d846952a66cea7bcb16676bbebf2810f, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/8d/2k8k0_ns53q...}, goog:chromeOptions: {debuggerAddress: localhost:61976}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:61976/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d846952a66cea7bcb16676bbebf2810f
+</error>
+  </testcase>
+  <testcase name="Selecting the product correctly and seeing its definition #6" classname="Shopping from Amazon" time="30.052"/>
+  <testcase name="Selecting the product correctly and seeing its definition #6" classname="Shopping from Amazon" time="0.008">
+    <error message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=103.0.5060.114)&#10;Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;&#10;System info: host: &apos;00136C&apos;, ip: &apos;2607:9880:4130:5c:0:0:0:3a6c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [d846952a66cea7bcb16676bbebf2810f, maximizeCurrentWindow {}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/8d/2k8k0_ns53q...}, goog:chromeOptions: {debuggerAddress: localhost:61976}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:61976/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: d846952a66cea7bcb16676bbebf2810f" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: '00136C', ip: '2607:9880:4130:5c:0:0:0:3a6c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d846952a66cea7bcb16676bbebf2810f, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/8d/2k8k0_ns53q...}, goog:chromeOptions: {debuggerAddress: localhost:61976}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:61976/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d846952a66cea7bcb16676bbebf2810f
+</error>
+    <system-out><![CDATA[
+@amazon
+Scenario Outline: Selecting the product correctly and seeing its definition                                                                                            &amp#27;[90m# src/test/resources/features/AmazonShopping.feature:23&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: '00136C', ip: '2607:9880:4130:5c:0:0:0:3a6c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d846952a66cea7bcb16676bbebf2810f, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/8d/2k8k0_ns53q...}, goog:chromeOptions: {debuggerAddress: localhost:61976}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:61976/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d846952a66cea7bcb16676bbebf2810f
+	at jdk.internal.reflect.GeneratedConstructorAccessor13.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:993)
+	at com.amazon.step_definitions.Hooks.setUp(Hooks.java:19)
+&amp#27;[0m
+  &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mthe user is on the main page&amp#27;[0m                                                                                                                                   &amp#27;[90m# com.amazon.step_definitions.MainPageSteps.the_user_on_the_chart_page()&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mthe user clicks on burger menu for all products&amp#27;[0m                                                                                                                 &amp#27;[90m# com.amazon.step_definitions.MainPageSteps.the_user_clicks_to_burger_menu_for_all_products()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mthe user clicks &amp#27;[0m&amp#27;[36m&amp#27;[1m"Electronics, Computers & Office"&amp#27;[0m&amp#27;[36m on the main page&amp#27;[0m                                                                                              &amp#27;[90m# com.amazon.step_definitions.MainPageSteps.the_user_clicks_products_on_the_main_page(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe user clicks the &amp#27;[0m&amp#27;[36m&amp#27;[1m"Camera, Photo & Video"&amp#27;[0m&amp#27;[36m on the main page&amp#27;[0m                                                                                                     &amp#27;[90m# com.amazon.step_definitions.MainPageSteps.the_user_clicks_products(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe user is on the categorised product page with &amp#27;[0m&amp#27;[36m&amp#27;[1m"Amazon.ca: Camera, Photo & Video: Electronics: Video, Lighting & Studio, Accessories, Film Photography & More"&amp#27;[0m &amp#27;[90m# com.amazon.step_definitions.CategorisedProductPageSteps.the_user_on_the_categorised_product_page_title(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe user clicks the &amp#27;[0m&amp#27;[36m&amp#27;[1m"Tripods & Monopods"&amp#27;[0m&amp#27;[36m which is under the &amp#27;[0m&amp#27;[36m&amp#27;[1m"Electronics"&amp#27;[0m&amp#27;[36m on the categorised product page&amp#27;[0m                                                        &amp#27;[90m# com.amazon.step_definitions.CategorisedProductPageSteps.the_user_clicks_the_product_is_under_the_common_on_categorised_the_product_page(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mthe user is on the product page with &amp#27;[0m&amp#27;[36m&amp#27;[1m"Amazon.ca: Tripods & Monopods: Electronics: Complete Tripods, Monopods, Tripod Heads, Tabletop & Travel Tripods & More"&amp#27;[0m   &amp#27;[90m# com.amazon.step_definitions.ProductPageSteps.the_user_on_the_product_page(java.lang.String)&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mthe user clicks on the &amp#27;[0m&amp#27;[36m&amp#27;[1m"VIJIM"&amp#27;[0m                                                                                                                                  &amp#27;[90m# com.amazon.step_definitions.ProductPageSteps.the_user_clicks_on_the_particular_product(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe user selects price preference from &amp#27;[0m&amp#27;[36m&amp#27;[1m"Price: High to Low"&amp#27;[0m&amp#27;[36m on the result page&amp#27;[0m                                                                                   &amp#27;[90m# com.amazon.step_definitions.ResultsPageSteps.the_user_clicks_on_the_particular_product(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe user clicks the second highest priced product on the results page&amp#27;[0m                                                                                            &amp#27;[90m# com.amazon.step_definitions.ResultsPageSteps.the_user_clicks_the_second_highest_priced_product_on_the_results_page()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mthe product description header is visible to the user&amp#27;[0m                                                                                                           &amp#27;[90m# com.amazon.step_definitions.ProductDescriptionPageSteps.the_product_description_header_is_visible_to_the_user()&amp#27;[0m
+Test failed
+      &amp#27;[31morg.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: '00136C', ip: '2607:9880:4130:5c:0:0:0:3a6c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d846952a66cea7bcb16676bbebf2810f, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/8d/2k8k0_ns53q...}, goog:chromeOptions: {debuggerAddress: localhost:61976}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:61976/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d846952a66cea7bcb16676bbebf2810f
+	at jdk.internal.reflect.GeneratedConstructorAccessor13.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:351)
+	at com.amazon.step_definitions.Hooks.tearDown(Hooks.java:29)
+&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Selecting the product correctly and seeing its definition #6" classname="Shopping from Amazon" time="0">
+    <error message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=103.0.5060.114)&#10;Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;&#10;System info: host: &apos;00136C&apos;, ip: &apos;2607:9880:4130:5c:0:0:0:3a6c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [d846952a66cea7bcb16676bbebf2810f, screenshot {}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/8d/2k8k0_ns53q...}, goog:chromeOptions: {debuggerAddress: localhost:61976}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:61976/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: d846952a66cea7bcb16676bbebf2810f" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: '00136C', ip: '2607:9880:4130:5c:0:0:0:3a6c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d846952a66cea7bcb16676bbebf2810f, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/8d/2k8k0_ns53q...}, goog:chromeOptions: {debuggerAddress: localhost:61976}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:61976/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d846952a66cea7bcb16676bbebf2810f
+</error>
   </testcase>
 </testsuite>
