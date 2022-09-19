@@ -1,13 +1,13 @@
 [
   {
-    "line": 2,
+    "line": 3,
     "elements": [
       {
-        "start_timestamp": "2022-07-14T21:37:30.043Z",
+        "start_timestamp": "2022-09-19T16:46:54.740Z",
         "before": [
           {
             "result": {
-              "duration": 6573398000,
+              "duration": 4177641000,
               "status": "passed"
             },
             "match": {
@@ -15,14 +15,14 @@
             }
           }
         ],
-        "line": 18,
-        "name": "Selecting the product correctly and seeing its definition",
+        "line": 4,
+        "name": "Teddy bear search",
         "description": "",
-        "id": "shopping-from-amazon;selecting-the-product-correctly-and-seeing-its-definition;;2",
+        "id": "shopping-from-amazon;teddy-bear-search",
         "after": [
           {
             "result": {
-              "duration": 263491000,
+              "duration": 275377000,
               "status": "passed"
             },
             "match": {
@@ -31,190 +31,96 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 36339000,
+              "duration": 22651000,
               "status": "passed"
             },
-            "line": 4,
+            "line": 5,
             "name": "the user is on the main page",
             "match": {
-              "location": "com.amazon.step_definitions.MainPageSteps.the_user_on_the_chart_page()"
+              "location": "com.amazon.step_definitions.OneOceanSteps.the_user_on_the_chart_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 480355000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "the user clicks on burger menu for all products",
-            "match": {
-              "location": "com.amazon.step_definitions.MainPageSteps.the_user_clicks_to_burger_menu_for_all_products()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 4104917000,
+              "duration": 2213576000,
               "status": "passed"
             },
             "line": 6,
-            "name": "the user clicks \"Electronics, Computers \u0026 Office\" on the main page",
+            "name": "the user search \"Teddy bear\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Electronics, Computers \u0026 Office\"",
+                  "val": "\"Teddy bear\"",
                   "offset": 16
                 }
               ],
-              "location": "com.amazon.step_definitions.MainPageSteps.the_user_clicks_products_on_the_main_page(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1222229000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "the user clicks the \"TV \u0026 Home Theatre\" on the main page",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"TV \u0026 Home Theatre\"",
-                  "offset": 20
-                }
-              ],
-              "location": "com.amazon.step_definitions.MainPageSteps.the_user_clicks_products(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 4073000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "the user is on the categorised product page with \"Amazon.ca: Televisions \u0026 Video: Electronics: Accessories, Projectors, AV Receivers \u0026 Amplifiers, Televisions \u0026 More\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Amazon.ca: Televisions \u0026 Video: Electronics: Accessories, Projectors, AV Receivers \u0026 Amplifiers, Televisions \u0026 More\"",
-                  "offset": 49
-                }
-              ],
-              "location": "com.amazon.step_definitions.CategorisedProductPageSteps.the_user_on_the_categorised_product_page_title(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 3302047000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "the user clicks the \"Televisions\" which is under the \"Electronics\" on the categorised product page",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Televisions\"",
-                  "offset": 20
-                },
-                {
-                  "val": "\"Electronics\"",
-                  "offset": 53
-                }
-              ],
-              "location": "com.amazon.step_definitions.CategorisedProductPageSteps.the_user_clicks_the_product_is_under_the_common_on_categorised_the_product_page(java.lang.String,java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 4557000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "the user is on the product page with \"Amazon.ca: Televisions - Televisions \u0026 Video: Electronics\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Amazon.ca: Televisions - Televisions \u0026 Video: Electronics\"",
-                  "offset": 37
-                }
-              ],
-              "location": "com.amazon.step_definitions.ProductPageSteps.the_user_on_the_product_page(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 3212239000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "the user clicks on the \"Samsung\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Samsung\"",
-                  "offset": 23
-                }
-              ],
-              "location": "com.amazon.step_definitions.ProductPageSteps.the_user_clicks_on_the_particular_product(java.lang.String)"
+              "location": "com.amazon.step_definitions.OneOceanSteps.the_user_search(java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 3353056000,
+              "duration": 480457000,
               "status": "passed"
             },
-            "line": 12,
-            "name": "the user selects price preference from \"Price: High to Low\" on the result page",
+            "line": 7,
+            "name": "the user sorts the result according to \"Avg. Customer Review\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Price: High to Low\"",
+                  "val": "\"Avg. Customer Review\"",
                   "offset": 39
                 }
               ],
-              "location": "com.amazon.step_definitions.ResultsPageSteps.the_user_clicks_on_the_particular_product(java.lang.String)"
+              "location": "com.amazon.step_definitions.OneOceanSteps.the_user_sorts_the_result_according_to(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 5059716000,
+              "duration": 2204304000,
               "status": "passed"
             },
-            "line": 13,
-            "name": "the user clicks the second highest priced product on the results page",
+            "line": 8,
+            "name": "the user selects the Age range between five to seven years old",
             "match": {
-              "location": "com.amazon.step_definitions.ResultsPageSteps.the_user_clicks_the_second_highest_priced_product_on_the_results_page()"
+              "location": "com.amazon.step_definitions.OneOceanSteps.the_user_selects_the_age_range_between_five_to_seven_years_old()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 64308000,
+              "duration": 14974008000,
               "status": "passed"
             },
-            "line": 14,
-            "name": "the product description header is visible to the user",
+            "line": 9,
+            "name": "the user adds the first two items in his cart",
             "match": {
-              "location": "com.amazon.step_definitions.ProductDescriptionPageSteps.the_product_description_header_is_visible_to_the_user()"
+              "location": "com.amazon.step_definitions.OneOceanSteps.the_user_adds_the_first_two_items_in_his_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4021451000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user verifies whether the two items are on the chart.",
+            "match": {
+              "location": "com.amazon.step_definitions.OneOceanSteps.the_user_verifies_whether_the_two_items_are_on_the_chart()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@amazon"
+            "name": "@oneOcean"
           }
         ]
       }
@@ -223,13 +129,13 @@
     "description": "",
     "id": "shopping-from-amazon",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/AmazonShopping.feature",
+    "uri": "file:src/test/resources/features/OneOceanTask.feature",
     "tags": [
       {
-        "name": "@amazon",
+        "name": "@oneOcean",
         "type": "Tag",
         "location": {
-          "line": 1,
+          "line": 2,
           "column": 1
         }
       }

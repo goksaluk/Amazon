@@ -12,6 +12,7 @@ public class ProductDescriptionPage extends BasePage {
     public WebElement descriptionHeader;
 
     public String getDescriptionHeaderText() {
+
         BrowserUtils.waitForVisibility(descriptionHeader,3);
         return descriptionHeader.getText();
     }

@@ -41,6 +41,10 @@ public class Driver {
                     WebDriverManager.firefoxdriver().setup();
                     driverPool.set(new FirefoxDriver(new FirefoxOptions().setHeadless(true)));
                     break;
+                case "safari":
+                    WebDriverManager.safaridriver().setup();
+                    driverPool.set(new SafariDriver());
+                    break;
 
             // tests can be run in cloud
                 case "remote_chrome":

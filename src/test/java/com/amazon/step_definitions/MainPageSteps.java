@@ -9,11 +9,11 @@ import org.junit.Assert;
 public class MainPageSteps {
 
     MainPage mainPage = new MainPage();
-
-    @When("the user is on the main page")
+    @When("the user is on the main page of amazon")
     public void the_user_on_the_chart_page() {
         Assert.assertEquals("Amazon.ca: Low Prices – Fast Shipping – Millions of Items", Driver.get().getTitle());
     }
+
 
     @When("the user clicks on burger menu for all products")
     public void the_user_clicks_to_burger_menu_for_all_products() {

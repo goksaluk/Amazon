@@ -9,7 +9,7 @@ public class ProductPage extends BasePage {
 
     public void  clickParticularProduct(String productName){
         WebElement particularProduct = Driver.get().findElement(By.xpath("//*[text()='"+productName+"']"));
-        BrowserUtils.waitFor(2);
+        BrowserUtils.waitFor(3);
         BrowserUtils.waitForClickablility(particularProduct,7);
         particularProduct.click();
 

@@ -1,7 +1,7 @@
 @amazon
 Feature: Shopping from Amazon
   Scenario Outline: Selecting the product correctly and seeing its definition
-    Given the user is on the main page
+    Given the user is on the main page of amazon
     When the user clicks on burger menu for all products
     Then the user clicks "<mainProducts>" on the main page
     And the user clicks the "<generalProductsNames>" on the main page
